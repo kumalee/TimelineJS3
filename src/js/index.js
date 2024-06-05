@@ -1,4 +1,4 @@
-import "../less/TL.Timeline.less"
+import "../scss/TL.Timeline.scss"
 export { Timeline }
 from "./timeline/Timeline"
 export { parseGoogleSpreadsheetURL }

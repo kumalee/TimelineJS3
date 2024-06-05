@@ -33,7 +33,7 @@ module.exports = {
     ],
     module: {
         rules: [{
-                test: /\.less$/,
+                test: /\.scss$/,
                 use: [{
                         loader: 'css-loader',
                         options: {
@@ -41,7 +41,7 @@ module.exports = {
                         }
                     },
                     {
-                        loader: 'less-loader',
+                        loader: 'sass-loader',
                         options: {
                             sourceMap: true,
                         }

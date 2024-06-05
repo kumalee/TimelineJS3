@@ -50,28 +50,28 @@
                 "dst": "build/embed"
             }
         ],
-        // compile less files
+        // compile scss files
         // input: list of objects specifying inputs and output
         // input: list of objects, where
         //      @src: source file/directory
         //      @dst: destination file/directory
         //      @regex: regular expression to match files (if @src is directory)
-        //      @opt: options to pass to lessc
-        "lessc": [
+        //      @opt: options to pass to sass
+        "sass": [
             {
-                "src": "source/less/TL.Timeline.less",
+                "src": "source/scss/TL.Timeline.scss",
                 "dst": "build/css/timeline.css",
                 "opt": "--clean-css=--s0"
             },
             {
-                "src": "source/less/themes/dark/TL.Theme.Dark.less",
+                "src": "source/scss/themes/dark/TL.Theme.Dark.scss",
                 "dst": "build/css/themes/timeline.theme.dark.css",
                 "opt": "--clean-css=--s0"
             },
             {
-                "src": "source/less/fonts",
+                "src": "source/scss/fonts",
                 "dst": "build/css/fonts",
-                "regex": ".*(?<!font.base)\\.less"
+                "regex": ".*(?<!font.base)\\.scss"
             }
         ],
         //

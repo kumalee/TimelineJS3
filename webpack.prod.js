@@ -7,7 +7,7 @@ module.exports = merge.smart({
     devtool: 'source-map',
     module: {
         rules: [{
-            test: /\.less$/,
+            test: /\.scss$/,
             use: [MiniCssExtractPlugin.loader]
         }]
     },
